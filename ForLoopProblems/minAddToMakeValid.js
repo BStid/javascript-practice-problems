@@ -36,10 +36,8 @@ var minAddToMakeValid = function(S) {
 
   for (let i = 0; i < parArr.length; i++) {
     let currentPar = parArr[i];
-    console.log("par", par);
     if (par < 0) {
       count++;
-      console.log("count", count);
       par = 0;
     }
     if (currentPar == "(") {
@@ -48,13 +46,11 @@ var minAddToMakeValid = function(S) {
       par--;
     }
   }
-  console.log(par, count);
   if (par > 0) {
     count += par;
   } else if (par < 0) {
     count += Math.abs(par);
   }
-  console.log("count", count);
   return count;
 };
 

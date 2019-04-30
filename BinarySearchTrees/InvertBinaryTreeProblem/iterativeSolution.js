@@ -1,3 +1,5 @@
+//O(n) where n is the number of nodes in the tree
+
 var invertTree = function(root) {
   let node = root;
   let queue = [];

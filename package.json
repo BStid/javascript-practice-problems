@@ -1,0 +1,32 @@
+{
+  "name": "javascriptpracticeproblems",
+  "version": "1.0.0",
+  "description": "List of Common JavaScript Interview Problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BStid/javascript-practice-problems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BStid/javascript-practice-problems/issues"
+  },
+  "homepage": "https://github.com/BStid/javascript-practice-problems#readme",
+  "dependencies": {
+    "npm": "^6.9.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "verbose": true,
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  }
+}

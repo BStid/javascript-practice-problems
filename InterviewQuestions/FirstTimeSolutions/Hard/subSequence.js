@@ -8,7 +8,7 @@ Write a function that takes two strings, s1 and s2 and returns the longest commo
 
 */
 
-function longestSubsequence(set1, set2) {
+function longestCommonSubsequence(set1, set2) {
   // Init LCS matrix.
   const lcsMatrix = Array(set2.length + 1)
     .fill(null)
@@ -65,5 +65,6 @@ function longestSubsequence(set1, set2) {
   return longestSequence;
 }
 
-console.log(longestSubsequence("AGGTAB", "GXTXAYB"));
+// console.log(longestCommonSubsequence("AGGTAB", "GXTXAYB"));
 // longestSubsequence("ABAZDC", "BACBAD");
+module.exports = longestCommonSubsequence;

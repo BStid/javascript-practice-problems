@@ -1,7 +1,7 @@
-const JumpGame = require("../JumpGame/JumpGame");
+const JumpGame = require("../JumpGame/dynamicJumpGame");
 
-describe("JumpGame", () => {
-  it("should solve Jump Game problem ", () => {
+describe("Dynamic Programming Jump Game", () => {
+  it("should solve Jump Game problem in bottom-up dynamic programming manner", () => {
     expect(JumpGame([1, 0])).toBe(true);
     expect(JumpGame([100, 0])).toBe(true);
     expect(JumpGame([2, 3, 1, 1, 4])).toBe(true);

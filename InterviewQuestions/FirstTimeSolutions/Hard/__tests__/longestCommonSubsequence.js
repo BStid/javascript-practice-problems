@@ -1,4 +1,4 @@
-let longestCommonSubsequence = require("../subSequence");
+let longestCommonSubsequence = require("../longestCommonSubsequence");
 
 describe("longestCommonSubsequence", () => {
   it("should find longest common subsequence for two strings", () => {

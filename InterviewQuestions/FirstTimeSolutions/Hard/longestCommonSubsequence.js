@@ -65,6 +65,7 @@ function longestCommonSubsequence(set1, set2) {
   return longestSequence;
 }
 
-// console.log(longestCommonSubsequence("AGGTAB", "GXTXAYB"));
-// longestSubsequence("ABAZDC", "BACBAD");
+longestCommonSubsequence("AGGTAB", "GXTXAYB");
+// longestCommonSubsequence("ABAZDC", "BACBAD");
+
 module.exports = longestCommonSubsequence;
